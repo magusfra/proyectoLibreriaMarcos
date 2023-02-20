@@ -1,0 +1,10 @@
+@import "../partials/colors.scss";
+@import "../partials/fonts.scss";
+
+.button {
+    background-color: $secondary;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}

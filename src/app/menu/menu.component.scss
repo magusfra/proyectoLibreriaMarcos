@@ -1,0 +1,24 @@
+@import "../partials/colors";
+@import "../partials/fonts";
+
+nav{
+    background-color: $primary_lg;
+    color: $textonprimary;
+    align-items: center;
+    
+    a{
+        font-size: 30px;
+        font-family: $menuFont;
+        color: $textonprimary;
+        text-decoration:none;
+        &:hover{
+            
+        }
+    }
+    .active-link{
+        background-color: $primary_dk;
+    }
+    ul{
+
+    }
+}
